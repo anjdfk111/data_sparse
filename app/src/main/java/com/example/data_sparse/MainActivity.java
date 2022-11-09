@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
                         break;
                     case XmlPullParser.END_TAG:
                         if(parser.getName().equals("item")){
-                            status1.setText(status1.getText().toString()+" 숲길명: "+ frtrlNm +"\n 해발고도: "+aslAltide  +"\n 장소명 : " + placeNm
+                            status1.setText(status1.getText().toString()+" \n숲길명: "+ frtrlNm +"\n 해발고도: "+aslAltide  +"\n 장소명 : " + placeNm
                                     +"\n 위도 : " + lat +  "\n 경도 : " + lot );
 
                         }
